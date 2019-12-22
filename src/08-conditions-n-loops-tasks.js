@@ -93,8 +93,8 @@ function getSumBetweenNumbers(n1, n2) {
  *   10,1,1   =>  false
  *   10,10,10 =>  true
  */
-function isTriangle(/* a, b, c */) {
-  throw new Error('Not implemented'); // return ((a ** 2) + (b ** 2) === c ** 2); // почему-то не проходит тест, хотя все работает
+function isTriangle(a, b, c) {
+  return ((a ** 2) + (b ** 2) === c ** 2);
 }
 
 
@@ -238,8 +238,8 @@ function reverseString(str) {
  *   87354 => 45378
  *   34143 => 34143
  */
-function reverseInteger(/* num */) {
-  throw new Error('Not implemented');
+function reverseInteger(num) {
+  return num.toString().split('').reverse().join('');
 }
 
 
